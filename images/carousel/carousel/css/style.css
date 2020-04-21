@@ -1,0 +1,25 @@
+ul {
+
+	margin: 0;
+	padding: 0;
+	width:  2100px;
+	position:  absolute;
+	height:  300px;
+	left:  -300px;
+}
+
+ul li {
+	list-style-type: none;
+	float:  left;
+	width:  300px;
+	height:  300px;
+}
+
+.window {
+	width:  300px;
+	height: 300px;
+	border:  1px solid green;
+/*	overflow: hidden;*/
+	position: relative;
+	margin:0 auto;
+}

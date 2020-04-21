@@ -1,0 +1,437 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.header{
+	background-color:#DD472C;
+	min-height: 60px;
+}
+
+.header .logo img{
+	width:40px;
+	height:40px;
+	margin-top:10px;
+}
+
+.logo a span{
+	color:white;
+    font-size: 15px;
+   /* margin-top: 50px;*/
+}
+
+.header .social img{
+	width:20px;
+	height:20px;
+}
+
+.header .social a {
+    padding-right: 20px;
+}
+
+.header .social {
+    padding-top: 15px;
+}
+
+/*....................................MAIN............................................*/
+
+
+
+.main-section {
+    background-image: url("../images/hero.jpg");
+    min-height: 550px;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    margin-top: 30px; ;
+}
+
+.navbar-nav a {
+	margin-right: 25px;
+    font-weight:bold;
+}
+
+.navbar-nav .btn{
+	background-color:#DD472C;
+}
+
+.hero {
+    padding-top: 100px;
+}
+
+.hero h3 {
+color:black;
+}
+
+.hero p {
+color:black;
+font-size: 24px;
+width:600px;
+margin-left: 220px;
+}
+/*............................*/
+
+.boxes {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -100px;
+    color:white;
+    font-size: 20px;
+    
+}
+
+.boxes p{
+	top:60px;
+	left:60px;
+    position: absolute;
+}
+
+.boxes div {
+    min-height: 200px;
+    position: relative;
+}
+
+.boxes div i {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    top: 70px;
+    right: -30px;
+    z-index: 10;
+}
+.boxes div:nth-child(1) {
+    background-color: #BCAE93;
+}
+
+.boxes div:nth-child(2) {
+    background-color: #DD472C;
+}
+
+.boxes div:nth-child(3) {
+    background-color: #741B1B;
+}
+
+/*...............................................frame................................*/
+
+
+
+.frame {
+    width:300px;
+	height:200px;
+    border: 7px solid #DD472C;
+    height: 250px;
+    position:relative;
+}
+
+.frame img{
+	width:300px;
+	height:200px;
+	position:absolute;
+	top:-30px;
+	left:30px;
+}
+
+.info{
+
+    /*margin-top: 50px;*/
+    padding:100px;
+
+
+}
+.info h4{
+	color:#BCAE93;
+
+}
+
+.info h1{
+	color:#DD472C;
+}
+
+.info p{
+	color:black;
+}
+
+.textoffice{
+
+}
+
+/*.................................footer........................................*/
+
+.footer {
+    background-color: #3E3939;
+}
+
+.footer .footer-nav {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+
+.footer .footer-nav a{
+	color:#DD472C;
+}
+.footer-nav > div {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1060px) {
+    .main-section {
+        background-position-y: 0px;
+    }
+}
+
+.footer .text .copy{
+color:#BCAE93;
+font-size: 12px;
+}
+
+
+/*.................................about us.....................*/
+
+
+
+#about_us{
+    background-image: url("../images/about_us.jpg");
+    min-height: 550px;
+    background-size: cover;
+    background-position-y: -200px;
+
+}
+
+.about_text{
+ padding:80px;
+ padding-top: 50px;
+}
+
+.text h1{
+    color:#DD472C;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+/*..........................what_we_do...................*/
+
+#what_we_do{
+    background-image: url("../images/buildings.jpg");
+    min-height: 550px;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+/*..............................*/
+
+
+.boxes1 {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -100px;
+    color:black;
+    font-size: 20px;
+    
+}
+
+.boxes1 p{
+    top:73px;
+    left:60px;
+    position: absolute;
+    font-size:22px;
+
+}
+
+.boxes1 div {
+    min-height: 200px;
+    position: relative;
+}
+
+
+.boxes1 div{
+    background-color: white;
+    border:2px solid #DD472C;
+}
+.boxes1 div:nth-child(3) p{
+    top:65px;
+  
+
+}
+
+
+.what_we_do_text{
+    padding:40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.what_we_do_text h2{
+    color:#DD472C;
+    padding-bottom: 20px;
+
+}
+
+/*................registration..................*/
+
+
+ .registration{
+    width:600px;
+    height:700px;
+    background-color: white;
+    border:7px solid #DD472C;
+    margin:0 auto;
+    position:relative;
+    margin-top: 100px;
+
+
+}
+
+.registration form > div{
+   
+    margin-bottom:35px;
+}
+
+.registration form > div p {
+    position:absolute;
+    top:50px; 
+    left:38px;
+    color:red;
+}
+
+
+.registration #button button{
+    background-color: #DD472C;
+    margin-left: 480px;
+    
+}
+
+.registration h1{
+    color:#DD472C;
+    margin-top: 20px;
+    margin-left: 130px;
+    padding-bottom: 40px;
+}
+
+
+label {
+  display:inline-block;
+  width: 79px;
+  text-align:right;
+   font-family:'Arial', sans-serif;
+}
+
+input {
+  font-family:'Arial', sans-serif;
+  height:50px;
+  width:270px;
+  margin-left: 30px;
+  border:2px solid #DD472C;
+  background-color: #F8F7F4;
+  /*padding: 5px;*/
+}
+
+/*...................empty..........................*/
+
+
+.empty{
+
+    height: 250px;
+}
+
+
+/*....................clients.......................*/
+
+
+.clientdiv{
+    padding:80px;
+}
+
+#clients{
+background-image: url("../images/card.jpg");
+    min-height: 550px;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+.client_picture img{
+    width:450px;
+    height:300px;
+    margin-top: -220px;
+}
+
+.textclients h3{
+    color:#DD472C;
+
+}
+.textclients {
+padding-left: 100px;
+}
+
+
+
+/*.......................contact.............*/
+
+#navcontact{
+    color:white;
+}
+
+#contact_picture{
+    background-image: url("../images/pencil.jpg");
+    min-height: 550px;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+
+#contact{
+    background-color: white;
+    width:530px;
+    height:580px;
+    margin-left: 550px;
+    border:2px solid #C2B4B4;
+    margin-top: -400px;
+}
+
+#contact h2{
+    color:#DD472C;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 50px;   
+
+}
+
+#contact p{
+    margin-left: 70px;
+
+}
+
+#contact p:nth-child(2){
+    color: #DD472C;               /*mislila sam prva dva i poslednja dva staviti u dva diva*/
+}
+
+#contact p:nth-child(3){
+    color: #DD472C;
+}
+
+#contact p:nth-child(4){
+    width:250px;
+    margin-top: 40px;
+}
+
+#contact p:nth-child(5){
+    width:250px;
+    margin-top: 30px;
+}
+
+#contact_picture .team{
+    color:white;
+}
+
+
+.team{
+    padding-top: 150px;
+    padding-left: 50px;
+}

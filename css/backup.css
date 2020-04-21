@@ -1,0 +1,352 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+header > div{
+	background-color:#DD472C;
+}
+
+#logo img{
+	width:40px;
+	height:40px;
+
+}
+
+#logo span{
+	color:white;
+}
+
+#social{
+	margin-left: 770px;
+	margin-top: 5px;
+}
+
+
+.column {
+  float: left;
+  width:20px;
+  height:20px;
+  margin-right: 20px;
+}
+.column img{
+	width:20px;
+	height:20px;
+
+
+}
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+/*.......................................HERO...............................*/
+
+main .background{
+	background-image: url(images/hero.jpg);
+	background-size: cover;
+	/*height:200px;*/
+}
+
+
+
+#nav .nav-item.nav-link{
+	color:black;
+
+}
+
+#nav .navbar-nav{
+	margin-left:700px;
+}
+
+
+#nav .nav-item.nav-link{
+	margin-right: 20px;
+
+}
+
+#nav .btn.btn-primary{
+	background-color:#DD472C;
+}
+
+main #lorem h2{
+	color:black;
+	font-weight:400;
+   margin-top:150px;
+   margin-left:430px; 
+  
+   
+}
+
+main #lorem p{
+	color:black;
+	font-size: 30px;
+	margin-top:80px;
+	margin-right: 20px;
+	text-align: left;
+	margin-left:300px;
+	width:630px;
+
+}
+
+/*.......................THREE BOXES......................*/
+
+
+main #box{
+	width:750px;
+	height: 250px;
+	margin-left: 350px;
+	margin-top: 420px;
+	display:table;
+}
+
+main .column1{
+	float:left;
+	width:250px;
+	height:250px;
+}
+
+
+main #box1{
+	background-color:#BCAE93;
+	font-size: 20px;
+
+}
+
+#box1 img{
+	width:50px;
+	height:50px;
+	margin-top: 70px;
+	margin-left: 180px;
+}
+main #box2{
+    background-color:#DD472C;
+    font-size: 20px;
+    
+}
+
+#box2 img{
+	width:50px;
+	height:50px;
+	margin-top:70px;
+	margin-left: 180px;
+}
+
+main #box3{
+	background-color:#741B1B;
+	font-size: 20px;
+	float:right;
+	margin-top: -250px;
+	 
+
+}
+
+
+
+/*..........................................SECTION....................................*/
+.middle-part{
+	margin:120px;
+}
+
+
+
+#page1 img{
+	width:300px;
+	height:200px;
+	top: -50px;
+	left:20px;
+	position: absolute;
+	display: block;
+}
+
+#page1  > div{
+	width:300px;
+	height:200px;
+	border:7px solid #DD472C;
+	margin-top: 200px;
+		
+}
+
+#text1{
+	margin-top: 130px;
+}
+
+/*----------------------------------FOOTER----------------------------------------*/
+
+footer .row{
+
+	
+	margin-top: 150px;
+	border-bottom: 1.5px solid #BCAE93;
+	color:#DD472C;
+	height:200px;
+	text-align: center;
+	/*margin-left: 200px;*/
+	
+}
+
+footer .row > div {
+
+	margin-top: 100px;
+}
+
+footer #footer p{
+	font-size: 10px;
+	color:#BCAE93;
+	margin-top: 20px;
+	margin-left: 400px;
+}
+
+footer > div{
+	background-color: #3E3939;
+}
+
+.footernav .row{
+	width:70%;
+	margin:0 auto;
+}
+
+
+
+/*....................................ABOUT US..........................*/
+
+#page2  h4{
+	color:#DD472C;
+	text-align: center;
+	margin-top: 20px;
+
+
+}
+
+
+#page2  p{
+	margin-top: 30px;
+}
+
+
+
+
+/*.......................................REGISTRATION..........................................*/
+
+
+.container #registration{
+	width:600px;
+	height:700px;
+	background-color: white;
+	border:7px solid #DD472C;
+	margin:0 auto;
+	margin-top: -850px;
+	
+}
+
+.container #registration form > div{
+	position:relative;
+	margin-bottom:35px;
+}
+
+.container #registration form > div p {
+	position:absolute;
+	top:50px; 
+	left:38px;
+	color:red;
+}
+
+
+.container #registration #button button{
+	background-color: #DD472C;
+	margin-left: 480px;
+	
+}
+
+.container #registration h1{
+	color:#DD472C;
+	margin-top: 20px;
+	margin-left: 130px;
+	padding-bottom: 40px;
+}
+
+
+label {
+  display:inline-block;
+  width: 79px;
+  text-align:right;
+   font-family:'Arial', sans-serif;
+}
+
+input {
+  font-family:'Arial', sans-serif;
+  height:50px;
+  width:270px;
+  margin-left: 30px;
+  border:2px solid #DD472C;
+  background-color: #F8F7F4;
+  /*padding: 5px;*/
+}
+
+
+
+
+
+
+/*........................................CLIENTS..................................*/
+
+#img5 img{
+
+	width:500px;
+	height:300px;
+
+}
+
+
+
+
+/*...................................CONTACT.....................................*/
+
+#contact{
+	background-color: white;
+	width:600px;
+	height:750px;
+	margin-top: -800px;
+	margin-left: 550px;
+	border:2px solid #C2B4B4;
+}
+
+#contact h2{
+	color:#DD472C;
+	text-align: center;
+	margin-top: 30px;
+	padding-bottom: 50px;	
+
+}
+
+#contact p{
+	margin-left: 70px;
+
+}
+
+#contact p:nth-child(2){
+	color: #DD472C;               /*mislila sam prva dva i poslednja dva staviti u dva diva*/
+}
+
+#contact p:nth-child(3){
+	color: #DD472C;
+}
+
+#contact p:nth-child(4){
+	width:250px;
+	margin-top: 40px;
+}
+
+#contact p:nth-child(5){
+	width:250px;
+	margin-top: 30px;
+}*/*/
