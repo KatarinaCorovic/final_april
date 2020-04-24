@@ -1,5 +1,5 @@
 # Katehizum
-## (Final project of the second semestar Y1)
+## (Final project web4300 Y1)
 ## Author:Katarina Ćorović
 
 
