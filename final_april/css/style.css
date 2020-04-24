@@ -1,0 +1,643 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.header{
+	background-color:#DD472C;
+	min-height: 60px;
+}
+
+.header .logo img{
+	width:40px;
+	height:40px;
+	margin-top:10px;
+}
+
+.logo > a {
+	color:white;
+    font-size:17px;
+   padding-top: 100px;
+   text-decoration: none;
+}
+
+
+.header .social img{
+	width:20px;
+	height:20px;
+}
+
+.header .social a {
+    padding-right: 15px;
+}
+
+.header .social {
+    padding-top: 15px;
+}
+
+.header .social a:nth-child(3) img{
+  width:25px;
+  height:25px;
+  margin-top:3px;
+}
+
+.header .social a:nth-child(4) img{
+ margin-left: -5px;
+}
+
+.navbar-toggler{
+  background-color: #f0ede4;
+}
+/*....................................MAIN............................................*/
+
+
+
+.main-section {
+    background-image: url("../images/hero.jpg");
+    min-height: 550px;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    margin-top: 30px; ;
+}
+
+.navbar-nav a {
+	margin-right: 25px;
+    font-weight:bold;
+}
+
+.navbar-nav .btn{
+	background-color:#DD472C;
+}
+
+.hero {
+    padding-top: 100px;
+}
+
+.hero h3 {
+color:black;
+padding-bottom: 20px;
+}
+
+
+#firstpagetext{
+  margin:0 auto;
+}
+/*.hero p {
+color:black;
+font-size: 24px;
+width:600px;
+margin-left: 220px;
+}
+*/
+
+/*..............boxes..............*/
+
+.boxes {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -100px;
+    color:white;
+    font-size: 20px;
+    
+}
+
+.boxes p{
+  display: inline-block;
+  margin-top: 65px;
+}
+	
+
+.boxes div {
+    min-height: 200px;
+ 
+}
+
+/*.boxes div i {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    top: 70px;
+    right: -30px;
+    z-index: 10;
+}*/
+.boxes div:nth-child(1) {
+    background-color: #BCAE93;
+}
+
+.boxes div:nth-child(2) {
+    background-color: #DD472C;
+}
+
+.boxes div:nth-child(3) {
+    background-color: #741B1B;
+}
+
+
+/*...............................................frame................................*/
+
+
+
+.frame {
+    width:300px;
+	height:200px;
+    border: 7px solid #DD472C;
+    height: 250px;
+    position:relative;
+}
+
+.frame img{
+	width:300px;
+	height:200px;
+	position:absolute;
+	top:-30px;
+	left:30px;
+}
+
+.info{
+
+    /*margin-top: 50px;*/
+    padding:100px;
+
+
+}
+.info h4{
+	color:#BCAE93;
+
+}
+
+.info h1{
+	color:#DD472C;
+}
+
+.info p{
+	color:black;
+}
+
+.textoffice{
+
+}
+
+
+
+/*------------------------covid19---------------------------*/
+
+.covid{
+  background-color: #DD472C;
+  height: 150px;
+
+
+}
+
+.covid .buttonnav{
+  width:80%;
+  margin: 0 auto; 
+}
+
+.covid p{
+  font-size: 25px;
+  color:white;
+  /*padding-top: 10px*/;
+  margin-left: -230px;
+  margin-top:30px;
+
+}
+
+.covid .buttonnav{
+  padding:20px;
+}
+
+.covidbutton{
+  margin:0 auto;
+  margin-top: 30px;
+  background-color: #3E3939; 
+}
+
+  #info {
+  border:3px solid black;
+  width:85px;
+  height:35px;
+  padding-left:3px;
+  margin-top: 30px;
+
+}
+
+#Capa_1{
+  width:70px;
+  display:block;
+  margin-top: -280px;
+  margin-left: 100px;
+
+}
+
+
+.virusline,.virusline1{
+  fill-opacity:0;
+  stroke:#000;
+  stroke-width:10px;
+  stroke-dashoffset:0;
+  stroke-dasharray: 1000;
+
+}
+
+.virusline{
+  animation: virusline 6s ease-in-out infinite;
+}
+
+@keyframes virusline {
+  0%{
+    stroke-dashoffset:2000;
+  }
+
+  100%{
+
+    stroke-dashoffset:0;
+  }
+}
+/*.................................footer........................................*/
+
+.footer {
+    background-color: #3E3939;
+}
+
+.footer .footer-nav {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+
+.footer .footer-nav a{
+	color:#DD472C;
+}
+.footer-nav > div {
+    padding: 20px;
+}
+
+
+
+.footer .copyright .copy{
+color:#BCAE93;
+font-size: 12px;
+}
+
+
+/*.................................about us.....................*/
+
+
+
+#about_us {
+  background-color:#3E3939;
+ /*  background-image: url("../images/about_us.jpg");*/
+    min-height: 550px;
+/*  background-size: cover;
+    background-position-y: -270px;*/
+
+}
+
+#about_us .container .slider .text2{
+    background-image: url("../images/card.jpg");
+    min-height: 550px;
+    background-size: cover;
+    background-position-y: -270px;
+
+}
+
+#about_us .container .slider .text3{
+    background-image: url("../images/clients.jpg");
+    min-height: 550px;
+    background-size: cover;
+    background-position-y: -270px;
+
+}
+
+
+.about_text{
+ padding:50px;
+ padding-top: 50px;
+}
+
+.aboutheading h1{
+    color:#DD472C;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+/*------------------------------------slider----------------------------------*/
+  #slider {
+  width: 720px;
+  height: 400px;
+  overflow: hidden;
+  margin:0 auto;
+  border:3px solid white;
+
+}
+
+#slider .slides {
+  display: block;
+  width: 6000px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+#slider .slide{
+  float: left;
+  list-style-type: none;
+  width: 720px;
+  height: 400px;
+}
+
+img {
+  width: 720px;
+  height: 400px;
+}
+
+/*..........................what_we_do...................*/
+
+
+#menutext a{
+ color:white;
+
+}
+#what_we_do{
+    background-image: url("../images/building2.jpg");
+    min-height: 550px;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+
+
+/*..............................*/
+
+
+.boxes1 {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -100px;
+    color:black;
+    font-size: 20px;
+    
+    
+}
+
+.boxes1 p{
+    margin-top:70px;
+    /*margin-left:30px;*/
+    font-size:22px;
+    display: inline-block;
+    width:100%;
+
+}
+
+.boxes1 div {
+    min-height: 200px;
+    
+}
+
+
+.boxes1 div{
+    background-color: white;
+    border:2px solid #DD472C;
+}
+.boxes1 div:nth-child(3) p{
+    margin-top:60px;
+  
+
+}
+
+
+.what_we_do_text{
+    padding:40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.what_we_do_text h2{
+    color:#DD472C;
+    padding-bottom: 20px;
+
+}
+
+/*................registration..................*/
+
+
+ .registration{
+    width:600px;
+    height:700px;
+    background-color: white;
+    border:7px solid #DD472C;
+    margin:0 auto;
+    position:relative;
+    margin-top: 100px;
+
+
+}
+
+.registration form > div{
+   
+    margin-bottom:35px;
+}
+
+.registration form > div p {
+    position:absolute;
+    /*top:170px; */
+    left:38px;
+    color:red;
+}
+
+
+.registration #button button{
+    background-color: #DD472C;
+    margin-left: 480px;
+    
+}
+
+.registration h1{
+    color:#DD472C;
+    margin-top: 20px;
+    margin-left: 130px;
+    padding-bottom: 40px;
+}
+
+
+label {
+  display:inline-block;
+  width: 79px;
+  text-align:right;
+   font-family:'Arial', sans-serif;
+}
+
+input {
+  font-family:'Arial', sans-serif;
+  height:50px;
+  width:270px;
+  margin-left: 30px;
+  border:2px solid #DD472C;
+  background-color: #F8F7F4;
+  /*padding: 5px;*/
+}
+
+/*...................empty..........................*/
+
+
+.empty{
+
+    height: 250px;
+}
+
+
+/*....................clients.......................*/
+
+#clients .navbar-nav a{
+  color:white;
+}
+.clientdiv{
+    padding:30px;
+    padding-top: 10px;
+}
+
+#clients{
+background-image: url("../images/card.jpg");
+    min-height: 550px;
+    background-size: cover;
+    background-position-y: -200px;
+    position: relative;
+}
+
+.client_picture img{
+    width:550px;
+    height:350px;
+    margin-top: -200px;
+}
+
+.textclients h3{
+    color:#DD472C;
+
+}
+.textclients {
+padding-left: 100px;
+}
+
+.textclients h3{
+  padding-bottom: 20px; 
+}
+
+
+#wish{
+  color:#DD472C;
+  margin-top:170px;
+  margin-left: 350px;
+  width:400px;
+}
+
+/*.......................contact.............*/
+
+#navcontact a{
+    color:white;
+}
+
+#contact_picture{
+    background-image: url("../images/pencil.jpg");
+    min-height: 550px;
+    background-size: cover;
+    background-position-y: -200px;
+    
+}
+
+
+#contact{
+    background-color: white;
+    width:530px;
+    height:580px;
+    margin-left: 550px;
+    border:2px solid #C2B4B4;
+    margin-top: -400px;
+}
+
+#contact h2{
+    color:#DD472C;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 50px;   
+
+}
+
+#contact p{
+    margin-left: 70px;
+
+}
+
+#contact p:nth-child(2){
+    color: #DD472C;               /*mislila sam prva dva i poslednja dva staviti u dva diva*/
+}
+
+#contact p:nth-child(3){
+    color: #DD472C;
+}
+
+#contact p:nth-child(4){
+    width:250px;
+    margin-top: 40px;
+}
+
+#contact p:nth-child(5){
+    width:250px;
+    margin-top: 30px;
+}
+
+#contact_picture .team{
+    color:white;
+}
+
+
+.team{
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 1060px) {
+    .main-section {
+        background-position-y: 0px;
+    }
+
+    #contact_picture{
+       background-position-y: 0px;
+
+    }
+    #what_we_do{
+    background-position-y: 0px;
+
+  }
+   #clients {
+    background-position-y: 0px;
+   }
+} 
+
+
+/* On smaller screens, decrease text size*/
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+@media only screen and (max-width: 600px) {
+  #info{
+    margin-left:150px;
+
+  }
+}
+
+@media only screen and(max-width: 600px){
+  #contact{
+    margin-left: -900px
+  }
+}
+
+
