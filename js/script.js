@@ -178,8 +178,65 @@ if(theAddress) {
  
 
 
-
-
-
-
+// .....................................SLIDER....................................................
  
+
+$(function(){
+
+  var width = 720;
+  var animationSpeed = 2000;
+  var pause = 2000;
+  var currentSlide = 1;
+
+  var $slider = $('#slider');
+  var $slideContainer = $slider.find('.slides');
+  var $slides = $slideContainer.find('.slide');
+
+  var interval;
+
+  function startSlider(){
+    interval = setInterval(function(){
+      $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function(){
+        currentSlide++;
+        if(currentSlide === $slides.length) {
+          currentSlide = 1;
+          $slideContainer.css('margin-left', 0);
+        }
+      });
+    }, pause);
+  }
+
+  function stopSlider(){
+    clearInterval(interval);
+  }
+
+  $slider.on('mouseenter', stopSlider).on('mouseleave', startSlider);
+
+  startSlider();
+});
+
+ /*----------------------------API-----------------------------------*/
+
+
+function broj(cifra){
+
+  $.ajax("https://api.covid19api.com/summary?")
+.done(function(response) {
+
+
+  var srbijaNovi = response.Countries[197]['NewRecovered'];
+
+  if(cifra == 1) {
+    $('#info').text(response.Global.TotalConfirmed);
+  } else if (cifra == 2){
+    $('#info').text(response.Global.TotalDeaths);
+  } else if (cifra == 3){
+    $('#info').text(response.srbijaNovi)
+  } 
+
+
+
+  console.log(response.Countries[210]["NewRecovered"]);
+  
+})
+}
